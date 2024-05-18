@@ -3,6 +3,7 @@
 # task 3
 class BaseModel:
 
-    def __init__(self):
+    # task 4
+    def __init__(self, *args, **kwargs):
         self.id = 1
         self.name = 'Val'
